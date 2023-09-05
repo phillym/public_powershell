@@ -1,4 +1,4 @@
-# Add your explicit web proxy if you have one, in format "http://<proxyFQDN:<proxyPort>"
+# Add your explicit web proxy if you have one, in format "http://<proxyFQDN>:<proxyPort>"
 $Proxy = $null
 $Outputdate = get-date -Format "yyyyy-MM-dd_HHmmss"
 $ComputerName = $env:COMPUTERNAME
